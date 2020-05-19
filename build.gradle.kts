@@ -52,8 +52,8 @@ publishing {
             credentials { 
                 // Use this if the repo requires auth 
                 // see https://docs.gradle.org/6.4/userguide/declaring_repositories.html#sec:supported_transport_protocols
-                username = ""
-                password = ""
+                username = System.getenv("USERNAME")
+                password = System.getenv("TOKEN")
             }
         }
     }
