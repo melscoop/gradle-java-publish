@@ -48,7 +48,7 @@ publishing {
         maven {
             name = "remote"
             // Adapt the URL for your remote repository
-            url = uri("https://some.server/repo")
+            url = uri("https://maven.pkg.github.com/jcansdale-test/gradle-java-publish")
             credentials { 
                 // Use this if the repo requires auth 
                 // see https://docs.gradle.org/6.4/userguide/declaring_repositories.html#sec:supported_transport_protocols
