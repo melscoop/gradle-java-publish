@@ -45,16 +45,16 @@ publishing {
             name = "local"
             url = uri("$buildDir/repo")
         }
-//        maven {
-//            name = "remote"
-//            // Adapt the URL for your remote repository
-//            url = uri("https://some.server/repo")
-//            credentials { 
-//                // Use this if the repo requires auth 
-//                // see https://docs.gradle.org/6.4/userguide/declaring_repositories.html#sec:supported_transport_protocols
-//                username = ""
-//                password = ""
-//            }
-//        }
+        maven {
+            name = "remote"
+            // Adapt the URL for your remote repository
+            url = uri("https://some.server/repo")
+            credentials { 
+                // Use this if the repo requires auth 
+                // see https://docs.gradle.org/6.4/userguide/declaring_repositories.html#sec:supported_transport_protocols
+                username = ""
+                password = ""
+            }
+        }
     }
 }
