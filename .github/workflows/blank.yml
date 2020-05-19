@@ -1,7 +1,11 @@
 name: Gradle publish
 
 on:
-  push
+  push:
+
+  # trigger when starred
+  watch:
+    types: [started]  
 
 jobs:
   publish:
