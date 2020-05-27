@@ -6,6 +6,10 @@ on:
   # trigger when starred
   watch:
     types: [started]  
+    
+env:
+  USERNAME: token
+  TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   publish:
@@ -16,6 +20,3 @@ jobs:
     - run: ./gradlew publish
     - run: ./gradlew publish
     - run: ./gradlew publish
-      env:
-        USERNAME: token
-        TOKEN: ${{ secrets.GITHUB_TOKEN }}
