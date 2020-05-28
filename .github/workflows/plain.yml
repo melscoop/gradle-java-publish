@@ -1,4 +1,4 @@
-name: Gradle publish
+name: Gradle publish SNAPSHOT
 
 on:
   push:
