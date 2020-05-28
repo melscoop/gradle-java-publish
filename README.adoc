@@ -1,3 +1,9 @@
+![Gradle publish](https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish/badge.svg)
+
+![Gradle publish with sources.jar](https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish%20with%20sources.jar/badge.svg)
+
+![Gradle publish with javadoc.jar](https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish%20with%20javadoc.jar/badge.svg)
+
 ## Gradle publishing sample
 
 This is a simple project for doing publication to a Maven repository.
@@ -11,13 +17,3 @@ The project is setup to publish its main jar, javadoc jar and source jar.
 Simply run `./gradlew publish`.
 
 If you want to be more selective, look at the available tasks with `./gradlew tasks`.
-
-## Status
-
-<img src="https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish/badge.svg" alt="Gradle publish" />
-
-![Gradle publish](https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish/badge.svg)
-
-![Gradle publish with sources.jar](https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish%20with%20sources.jar/badge.svg)
-
-![Gradle publish with javadoc.jar](https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish%20with%20javadoc.jar/badge.svg)
