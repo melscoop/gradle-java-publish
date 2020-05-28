@@ -1,10 +1,10 @@
+## Status
+
 ![Gradle publish](https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish/badge.svg)
 
 ![Gradle publish with sources.jar](https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish%20with%20sources.jar/badge.svg)
 
 ![Gradle publish with javadoc.jar](https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish%20with%20javadoc.jar/badge.svg)
-
-![.github/workflows/npm-install.yml](https://github.com/jcansdale-test/npm-load/workflows/.github/workflows/npm-install.yml/badge.svg)
 
 ## Gradle publishing sample
 
