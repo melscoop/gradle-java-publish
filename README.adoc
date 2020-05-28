@@ -4,6 +4,8 @@
 
 ![Gradle publish with javadoc.jar](https://github.com/jcansdale-test/gradle-java-publish/workflows/Gradle%20publish%20with%20javadoc.jar/badge.svg)
 
+![.github/workflows/npm-install.yml](https://github.com/jcansdale-test/npm-load/workflows/.github/workflows/npm-install.yml/badge.svg)
+
 ## Gradle publishing sample
 
 This is a simple project for doing publication to a Maven repository.
