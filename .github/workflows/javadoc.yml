@@ -1,4 +1,4 @@
-name: Gradle publish SNAPSHOT with javadoc.jar
+name: SNAPSHOT with javadoc.jar
 
 on:
   push:
