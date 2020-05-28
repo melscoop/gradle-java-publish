@@ -1,10 +1,10 @@
 ## Status
 
-![Gradle publish](https://github.com/jcansdale-test/gradle-java-publish/workflows/SNAPSHOT/badge.svg)
+![Gradle publish](workflows/SNAPSHOT/badge.svg)
 
-![Gradle publish with sources.jar](https://github.com/jcansdale-test/gradle-java-publish/workflows/SNAPSHOT%20with%20sources.jar/badge.svg)
+![Gradle publish with sources.jar](workflows/SNAPSHOT%20with%20sources.jar/badge.svg)
 
-![Gradle publish with javadoc.jar](https://github.com/jcansdale-test/gradle-java-publish/workflows/SNAPSHOT%20with%20javadoc.jar/badge.svg)
+![Gradle publish with javadoc.jar](workflows/SNAPSHOT%20with%20javadoc.jar/badge.svg)
 
 ## Gradle publishing sample
 
