@@ -18,5 +18,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - run: ./gradlew publish -b build.gradle.javadoc.kts
+    - run: ./gradlew publish -b javadoc.gradle.kts
  
