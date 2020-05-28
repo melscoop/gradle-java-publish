@@ -10,6 +10,10 @@ repositories {
 group = "org.test.javadoc"
 version = "1.0-SNAPSHOT"
 
+java {
+    withJavadocJar()
+}
+
 dependencies {
     api("org.apache.commons:commons-math3:3.6.1")
 
