@@ -1,5 +1,5 @@
 
-name: Gradle publish
+name: Gradle publish with javadoc.jar
 
 on:
   push:
