@@ -8,16 +8,8 @@ repositories {
     jcenter()
 }
 
-group = "org.test"
+group = "org.test.plain"
 version = "1.0-SNAPSHOT"
-
-java {
-    withJavadocJar()
-    withSourcesJar()
-}
-
-val sourcesJar by tasks.getting(Jar::class)
-sourcesJar.exclude("*.txt")
 
 dependencies {
     api("org.apache.commons:commons-math3:3.6.1")

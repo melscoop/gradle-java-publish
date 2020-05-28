@@ -6,6 +6,10 @@ on:
   # trigger when starred
   watch:
     types: [started]  
+    
+env:
+  USERNAME: token
+  TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   publish:
@@ -13,7 +17,4 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - run: ./gradlew publish
-      env:
-        USERNAME: token
-        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - run: ./gradlew publish -b build.gradle.kts
