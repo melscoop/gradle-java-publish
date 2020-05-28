@@ -18,5 +18,3 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: ./gradlew publish
-    - run: ./gradlew publish
-    - run: ./gradlew publish
