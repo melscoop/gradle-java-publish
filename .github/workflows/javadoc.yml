@@ -1,4 +1,3 @@
-
 name: Gradle publish with javadoc.jar
 
 on:
