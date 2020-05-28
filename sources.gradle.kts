@@ -10,6 +10,13 @@ repositories {
 group = "org.test.sources"
 version = "1.0-SNAPSHOT"
 
+java {
+    withSourcesJar()
+}
+
+val sourcesJar by tasks.getting(Jar::class)
+sourcesJar.exclude("*.txt")
+
 dependencies {
     api("org.apache.commons:commons-math3:3.6.1")
 
