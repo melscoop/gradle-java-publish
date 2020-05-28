@@ -11,9 +11,6 @@ repositories {
 group = "org.test.plain"
 version = "1.0-SNAPSHOT"
 
-java {
-}
-
 dependencies {
     api("org.apache.commons:commons-math3:3.6.1")
 
