@@ -1,11 +1,7 @@
 name: SNAPSHOT
 
 on:
-  push:
-
-  # trigger when starred
-  watch:
-    types: [started]  
+  push
     
 env:
   USERNAME: token
